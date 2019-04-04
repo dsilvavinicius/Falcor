@@ -432,8 +432,8 @@ namespace Falcor
             gBlitData.pVars->getDefaultBlock()->setSampler(gBlitData.samplerBindLoc, 0, gBlitData.pPointSampler);
         }
 
-        assert(pSrc->getViewInfo().arraySize == 1 && pSrc->getViewInfo().mipCount == 1);
-        assert(pDst->getViewInfo().arraySize == 1 && pDst->getViewInfo().mipCount == 1);
+        //assert(pSrc->getViewInfo().arraySize == 1 && pSrc->getViewInfo().mipCount == 1);
+        //assert(pDst->getViewInfo().arraySize == 1 && pDst->getViewInfo().mipCount == 1);
 
         const Texture* pSrcTexture = dynamic_cast<const Texture*>(pSrc->getResource());
         const Texture* pDstTexture = dynamic_cast<const Texture*>(pDst->getResource());

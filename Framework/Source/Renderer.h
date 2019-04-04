@@ -106,6 +106,8 @@ namespace Falcor
         */
         virtual std::string captureScreen(const std::string explicitFilename = "", const std::string explicitOutputDirectory = "") = 0;
 
+        virtual void initVideoCapture() = 0;
+
         /* Shutdown the app 
         */
         virtual void shutdown() = 0;

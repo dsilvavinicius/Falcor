@@ -140,7 +140,7 @@ namespace Falcor
         void handleDroppedFile(const std::string& filename) override;
 
         virtual float getTimeScale() final { return mTimeScale; }
-        void initVideoCapture();
+        void initVideoCapture() override;
 
         // Private functions
         void initUI();
